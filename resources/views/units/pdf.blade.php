@@ -1,0 +1,1 @@
+<img src="data:image/svg+xml;base64,{{ base64_encode(QrCode::generate($uid)) }}" />
